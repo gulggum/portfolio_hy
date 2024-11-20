@@ -47,11 +47,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+*{
+	box-sizing: border-box;
+	
+}
+a{
+	text-decoration: none;
+
+}
+
+
 
 body{
-  background-color: aliceblue;
+  background:linear-gradient(to right,#00B4DB,#0083B0);
   height: 100vh;
   width: auto;
+ 
 }
 
 `;
