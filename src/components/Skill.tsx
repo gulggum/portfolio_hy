@@ -4,13 +4,13 @@ const SkillContainer = styled.div`
   height: 500px;
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 `;
 
 const Box = styled.div`
   width: 90%;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
