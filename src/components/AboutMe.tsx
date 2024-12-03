@@ -1,6 +1,5 @@
 import styled from "styled-components";
 const AboutBox = styled.div`
-  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +19,7 @@ const About = styled.p`
 
 function AboutMe() {
   return (
-    <AboutBox>
+    <AboutBox id="about">
       <Title>AboutMe</Title>
       <About>
         새로운 도전으로 개발을 꿈꾸고 열정 가득한 프론트엔드 개발자

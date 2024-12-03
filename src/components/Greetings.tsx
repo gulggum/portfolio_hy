@@ -11,6 +11,7 @@ const GreetingBox = styled.div`
   border-radius: 10200px 0px / 2700px;
   background-color: orange;
   border: none;
+  margin-bottom: 80px;
   span {
     font-size: 20px;
     font-weight: 600;
@@ -35,7 +36,7 @@ const Text = styled.div`
 
 function Greetings() {
   return (
-    <GreetingBox>
+    <GreetingBox id="greeting">
       <Blank></Blank>
       <Avatar
         src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/lhyto1234-1718000814.jpg"

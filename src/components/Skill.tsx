@@ -39,7 +39,7 @@ const Icon = styled.img``;
 
 function Skill() {
   return (
-    <SkillContainer>
+    <SkillContainer id="skill">
       <Box>
         <Title>Skill</Title>
         <SkillIcon>

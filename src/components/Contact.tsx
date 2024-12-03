@@ -22,7 +22,7 @@ const Wrapper = styled.div`
 
 function Contact() {
   return (
-    <Container>
+    <Container id="contact">
       <Title>Contact</Title>
       <Wrapper></Wrapper>
     </Container>
