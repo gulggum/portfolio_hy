@@ -28,7 +28,7 @@ function KakaoClone() {
         title="Portfolio Preview"
         style={{
           width: "400px",
-          height: "500px",
+          height: "50px",
           border: "none",
           overflow: "hidden",
         }}

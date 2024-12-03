@@ -13,16 +13,21 @@ const Title = styled.h1`
   font-weight: 600;
 `;
 
-const About = styled.p``;
+const About = styled.p`
+  line-height: 50px;
+  font-size: 20px;
+`;
 
 function AboutMe() {
   return (
     <AboutBox>
       <Title>AboutMe</Title>
       <About>
-        다양한 첼린지로 문제를 정의하고 해결하는 연습으을 통해 자바스크립트 코딩
-        실력을 향상해 보세요✨
+        새로운 도전으로 개발을 꿈꾸고 열정 가득한 프론트엔드 개발자
+        이희연입니다. ✨
       </About>
+      <About>✔️학력 - 2008.03 ~ 2010.02 숭의여대(경영학과)</About>
+      <About>✔️자격증 - 웹디자인기능사(2023)</About>
     </AboutBox>
   );
 }
