@@ -59,9 +59,9 @@ a{
 
 
 body{
-  background:linear-gradient(to right,#00B4DB,#0083B0);
+
   height: 100vh;
-  width: auto;
+  width: 100%;
  
 }
 
