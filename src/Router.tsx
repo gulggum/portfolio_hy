@@ -7,6 +7,7 @@ function Router() {
       <Routes>
         {" "}
         <Route path="/" element={<Home />} />
+        <Route path="/works/:id" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
